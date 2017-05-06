@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="20.00315">
+<testcase classname="Place Bet Action" name="Place bet as not registered user" time="20.00315">
+<system-out><![CDATA[Given User is on Home Page..................................................passed
+When User selects "Football" event..........................................passed
+And User bet on Home team to win............................................passed
+And User sets "0.05" amount of the bet click Place bet......................passed
+Then Error Message is displayed.............................................passed
+]]></system-out>
+</testcase>
+</testsuite>

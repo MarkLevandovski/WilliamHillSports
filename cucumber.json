@@ -1,0 +1,94 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Place bet as not registered user",
+        "description": "",
+        "id": "place-bet-action;place-bet-as-not-registered-user",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 15179710987,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User is on Home Page",
+            "match": {
+              "location": "PlaceBetCucumberTest.user_is_on_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2891778305,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User selects \"Football\" event",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Football",
+                  "offset": 14
+                }
+              ],
+              "location": "PlaceBetCucumberTest.user_selects_football_event(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1346324774,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User bet on Home team to win",
+            "match": {
+              "location": "PlaceBetCucumberTest.user_bet_on_home_team_to_win()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 488261830,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User sets \"0.05\" amount of the bet click Place bet",
+            "match": {
+              "arguments": [
+                {
+                  "val": "0.05",
+                  "offset": 11
+                }
+              ],
+              "location": "PlaceBetCucumberTest.user_sets_amount_of_the_bet(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 97074572,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Error Message is displayed",
+            "match": {
+              "location": "PlaceBetCucumberTest.error_message_is_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Place Bet Action",
+    "description": "",
+    "id": "place-bet-action",
+    "keyword": "Feature",
+    "uri": "PlaceBet.feature"
+  }
+]
